@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+			rel="stylesheet" />
+
+		<title>Frontend Mentor | QR code component</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+				font-family: Outfit;
+			}
+			img {
+				max-width: 100%;
+				border-radius: 8px;
+			}
+			body {
+				background-color: hsl(212, 45%, 89%);
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.main {
+				width: 300px;
+				background-color: white;
+				padding: 13px;
+				border-radius: 21px;
+			}
+			.main-text {
+				font-size: 15px;
+				padding-inline: 16px;
+				text-align: center;
+			}
+
+			.main-text-title {
+				margin-block: 15px;
+				font-size: 21px;
+				font-weight: 700;
+				color: hsl(218, 44%, 22%);
+			}
+			.main-text-desc {
+				margin-bottom: 25px;
+				font-weight: 400;
+				color: hsl(220, 15%, 55%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<img src="images/image-qr-code.png" alt="" />
+			<div class="main-text">
+				<div class="main-text-title">
+					Improve your front-end skills by building projects
+				</div>
+				<div class="main-text-desc">
+					Scan the QR code to visit Frontend Mentor and take your coding skills
+					to the next level
+				</div>
+			</div>
+		</div>
+
+		<!--   <div class="attribution">
+   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. 
+  </div> -->
+	</body>
+</html>
